@@ -4,6 +4,7 @@ public class Algo_7_Prime {
     static int num=0;
     void prime() {
         System.out.println("Printing prime numbers between 0-1000 ");
+
         int count=0;
         for (int i = 2; i < 1000; i++) {
              num = i;

@@ -10,8 +10,6 @@ static Scanner sc = new Scanner(System.in);
         String str1 =sc.next().toLowerCase();
         System.out.println("Enter string 2: ");
         String str2=sc.next().toLowerCase();
-//        System.out.println(str1);
-//        System.out.println(str2);
         // compare size
         if(str1.length()==str2.length())
         {
