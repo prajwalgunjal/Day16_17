@@ -1,6 +1,6 @@
 package com.bridgelabz.DSAProgram_3_SimpleBalancedParentheses;
 
-public class LinkedList<T> {
+public class Stack<T> {
     Node<T> head;
     Node<T> tail;
 

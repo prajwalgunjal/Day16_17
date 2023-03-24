@@ -2,11 +2,11 @@ package com.bridgelabz.DSAProgram_3_SimpleBalancedParentheses;
 
 import java.util.Scanner;
 
-public class LinkedListMain {
+public class StackMain {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        LinkedList<String> linkedList = new LinkedList<>();
+        Stack<String> stack = new Stack<>();
 //        System.out.println("Enter expression");
 //        String str = sc.next();
         String str = " ( 5 + 6 ) ∗ ( 7 + 8 ) / ( 4 + 3 ) ( 5 + 6 ) ∗ ( 7 + 8 ) / ( 4 + 3 ) ";
@@ -28,12 +28,12 @@ public class LinkedListMain {
         {
 //            System.out.print(strArray[i]+ " ");
             if(strArray[i].equals(push)) {
-                linkedList.push(strArray[i]);
+                stack.push(strArray[i]);
             } else if (strArray[i].equals(push2)) {
-                linkedList.pop(strArray[i]);
+                stack.pop(strArray[i]);
             }
         }
-        linkedList.check();
+        stack.check();
 //        linkedList.display();
     }
 }
